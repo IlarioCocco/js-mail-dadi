@@ -33,7 +33,7 @@ var richiestaMail = prompt("inserisci la tua E Mail")
 
 // 2 controlla che sia nella lista di chi può accedere
 // 3 stampa un messaggio appropriato sull'esito del controllo.
-var listEmail = ["ilario@gmail.com"]
+var listEmail = ["Ilario@gmail.com", "Mario@gmail.com", "Dario@gmail.com"]
 console.log(listEmail);
 
 if (listEmail[0] == richiestaMail) {
