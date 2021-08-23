@@ -27,7 +27,7 @@ if (dadoGiocatore > dadoComputer) {
 
 
 
-// esercizio lista Mail
+/// esercizio lista Mail
 
 // 1 Chiedi all'utente la sua email,
 var richiestaMail = prompt("inserisci la tua E Mail");
@@ -35,9 +35,9 @@ var richiestaMail = prompt("inserisci la tua E Mail");
 // 2 controlla che sia nella lista di chi può accedere
 // 3 stampa un messaggio appropriato sull'esito del controllo.
 var listaEmail = ["Ilario@gmail.com", "Mario@gmail.com", "Dario@gmail.com"];
-// listaEmail.push('Giò@gmail.com');
+listaEmail.push(richiestaMail);
 console.log(listaEmail);
-document.getElementById("mail").innerHTML = " " + "verifico possibilità accesso E-mail..";
+document.getElementById("mail").innerHTML = " " + "E-mail valida puoi accedere..";
 
 
 
