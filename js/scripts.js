@@ -23,6 +23,27 @@ if (dadoGiocatore > dadoComputer) {
     alert("Pareggio");
     console.log("Result : " + "Pareggio!");
 }
+
+
+
+// Mail
+
+// 1 Chiedi all'utente la sua email,
+var richiestaMail = prompt("inserisci la tua E Mail")
+
+// 2 controlla che sia nella lista di chi può accedere
+// 3 stampa un messaggio appropriato sull'esito del controllo.
+var listEmail = ["ilario@gmail.com"]
+console.log(listEmail);
+
+if (listEmail[0] == richiestaMail) {
+    alert("la tua mail può accedere");
+    console.log("la tua mail può accedere");
+
+} else if (listEmail[0] != richiestaMail) {
+    alert("mail fail");
+    console.log("mail fail");
+}
 // Prima di partire a scrivere codice poniamoci qualche domanda:
 // Che ci sia un array da qualche parte ?
 // Se dobbiamo confrontare qualcosa che "cosa" ci serve ?
