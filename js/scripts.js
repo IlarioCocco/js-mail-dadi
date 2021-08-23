@@ -27,7 +27,7 @@ if (dadoGiocatore > dadoComputer) {
 
 
 
-/// esercizio lista Mail
+// esercizio lista Mail
 
 // 1 Chiedi all'utente la sua email,
 var richiestaMail = prompt("inserisci la tua E Mail");
