@@ -35,19 +35,23 @@ var richiestaMail = prompt("inserisci la tua E Mail");
 var listaEmail = ["Ilario@gmail.com", "Mario@gmail.com", "Dario@gmail.com"];
 
 // 3 stampa un messaggio appropriato sull'esito del controllo.
-for (var i = 0; i < listaEmail.length; i++) {
-    if (listaEmail[i] == richiestaMail) {
-        alert("E mail ok")
-        console.log("E mail ok")
-    }
-}
-
 var isInList = false;
+
 if (isInList == richiestaMail) {
 } else {
     alert("e mail non valida");
     console.log("E mail non valida")
 }
+
+for (var i = 0; i < listaEmail.length; i++) {
+    if (listaEmail[i] == richiestaMail) {
+        isInList = true;
+        alert("E mail ok")
+        console.log("E mail ok")
+    }
+}
+
+
 
 
 
