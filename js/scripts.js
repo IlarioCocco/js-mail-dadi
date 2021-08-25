@@ -45,7 +45,7 @@ for (var i = 0; i < listaEmail.length; i++) {
     }
 }
 
-if (isInList != richiestaMail) {
+if (isInList) {
 } else {
     alert("e mail non valida");
     console.log("E mail non valida")
