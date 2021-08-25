@@ -37,12 +37,6 @@ var listaEmail = ["Ilario@gmail.com", "Mario@gmail.com", "Dario@gmail.com"];
 // 3 stampa un messaggio appropriato sull'esito del controllo.
 var isInList = false;
 
-if (isInList != richiestaMail) {
-} else {
-    alert("e mail non valida");
-    console.log("E mail non valida")
-}
-
 for (var i = 0; i < listaEmail.length; i++) {
     if (listaEmail[i] == richiestaMail) {
         isInList = true;
@@ -51,6 +45,11 @@ for (var i = 0; i < listaEmail.length; i++) {
     }
 }
 
+if (isInList != richiestaMail) {
+} else {
+    alert("e mail non valida");
+    console.log("E mail non valida")
+}
 
 
 
