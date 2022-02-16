@@ -57,7 +57,7 @@ for (var i = 0; i < listaEmail.length; i++) {
 }
 
 
-if ( isInList == true) {
+if ( isInList) {
     alert("E mail ok")
     console.log("E mail ok puoi entrare")
 } else {
